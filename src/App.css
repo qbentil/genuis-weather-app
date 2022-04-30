@@ -6,3 +6,12 @@
   background-position: center;
   background-size: cover;
 }
+
+.weather{
+  width: 50%;
+  height: 60vh;
+  margin:auto;
+  background-color: black;
+  border-radius: 20px;
+
+}
