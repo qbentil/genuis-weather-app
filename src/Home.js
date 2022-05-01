@@ -1,13 +1,12 @@
-import './App.css';
+import './Home.css';
 
+import SearchBar from './components/SearchBar';
 import { Waether } from './components/Weather';
-
-// import SearchBar from './components/SearchBar';
-
 
 function Home() {
   return (
     <div className="body">
+        <SearchBar />
         <Waether />
     </div>
   );
