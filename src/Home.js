@@ -1,13 +1,15 @@
-import './App.css';
+import './Home.css';
 
+import SearchBar from './components/SearchBar';
 import { Waether } from './components/Weather';
 
-// import SearchBar from './components/SearchBar';
-
-
 function Home() {
+  const searchWeather = (location) => {
+    // alert(location)
+  }
   return (
     <div className="body">
+        <SearchBar action = {searchWeather} />
         <Waether />
     </div>
   );
