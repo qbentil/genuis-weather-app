@@ -21,6 +21,7 @@
     background-color: #fff;
     font-size: 18px;
     color: #041b9e;
+
 }
 .container input::placeholder{
     color: #041b9e;
@@ -35,6 +36,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(0, 7, 221);
+    color: #0007dd;
     cursor: pointer;
+    border: none;
 }
+/* .icon:last-child{
+
+    border: 2px solid #0007dd;
+} */
