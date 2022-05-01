@@ -20,17 +20,21 @@
     border: none;
     background-color: #fff;
     font-size: 18px;
-    color: rgb(4, 27, 158);
+    color: #041b9e;
 }
+.container input::placeholder{
+    color: #041b9e;
+}
+
 
 .icon{
     width: 10%;
     height: 90%;
     margin: 2rem  auto;
     border-radius: 20px;
-    /* background-color: black; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* color: #fff; */
+    color: rgb(0, 7, 221);
+    cursor: pointer;
 }
