@@ -1,0 +1,36 @@
+.container {
+    width: 50%;
+    height: 6vh;
+    margin: auto;
+    margin-top: 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    border-radius: 20px;
+
+}
+.container input{
+    width: 80%;
+    height: 90%;
+    margin: 2rem  auto;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    color: rgb(4, 27, 158);
+}
+
+.icon{
+    width: 10%;
+    height: 90%;
+    margin: 2rem  auto;
+    border-radius: 20px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #fff; */
+}
