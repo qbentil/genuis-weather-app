@@ -39,12 +39,14 @@ function Home() {
     searchWeather("Accra")
   }
   return (
+
     <div className="w-screen h-screen bg-gray-600 items-center flex justify-center">
 
       <div className='w-[80%] h-[80%] bg-white mx-auto items-center flex  rounded-2xl'>
           <Search action = {searchWeather} />
           <Weather data = {data} />
       </div>
+
     </div>
   );
 }
