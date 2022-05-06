@@ -1,7 +1,7 @@
 import './Home.css';
 
 import SearchBar from './components/SearchBar';
-import { Waether } from './components/Weather';
+import { Weather } from './components/Weather';
 import axios from 'axios'
 import { useState } from 'react';
 
@@ -33,7 +33,7 @@ function Home() {
   return (
     <div className="body">
         <SearchBar action = {searchWeather} />
-        <Waether />
+        <Weather />
     </div>
   );
 }
