@@ -1,8 +1,0 @@
-.weather{
-    width: 50%;
-    height: 60vh;
-    margin:4rem  auto;
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
