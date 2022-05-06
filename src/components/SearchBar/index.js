@@ -16,7 +16,7 @@ const SearchBar =({action}) =>{
             <div className='icon'>
                 <MdOutlineLocationSearching />
             </div>
-            <input type='text' value={location} placeholder="Enter City to search" onChange={(e) => setLocation(e.target.value)} />
+            <input type='text' value={location} placeholder="Accra" onChange={(e) => setLocation(e.target.value)} />
             <button className='icon'>
                 <FaSearchLocation   />
             </button>
