@@ -2,8 +2,8 @@ import './style.css'
 
 import React from 'react'
 
-export const Waether = () => {
+export const Weather = () => {
   return (
-    <div className='weather'>Waether</div>
+    <div className='weather'>Weather</div>
   )
 }
