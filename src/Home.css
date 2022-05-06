@@ -1,9 +1,0 @@
-.body{
-  width: 100vw;
-  height: 100vh;
-  background:linear-gradient(0deg, rgba(64, 139, 224, 0.2), rgba(212, 232, 255, 0.9)), url(../public/assets/bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-}
